@@ -23,6 +23,6 @@ Browser -> Reverse Proxy -> Backend -> BDD
 - Backend (FastAPI)
 - BDD (PostgreSQL)
 
-## How to use Docker ?
-- build: docker build -t url-shortener ./backend
-- run: docker run --rm -d --name urlshort-api -p 3000:8000 url-shortener 
+## How to use ?
+docker compose up -d
+http://localhost
